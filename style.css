@@ -22,7 +22,13 @@ section{
 .mymiss{
     text-align: center;
 }
-
+.vb{
+    text-align: center;
+}
+.vb h1{
+    color: #f42a41
+    ;
+}
 h1{
     font-size: 50px;
 }
@@ -62,12 +68,14 @@ h1 span{
     border-image-slice: 1;
     margin-left: 10%;
     border-radius: 10px;
+    background-color: rgb(219, 255, 255);
 }
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
     border-radius: 10px;
+    background-color: rgb(253, 255, 158);
 }
 
 #cry-web{
@@ -76,8 +84,26 @@ h1 span{
     border-image-slice: 1;
     border-radius: 10px;
     margin-right: 10%;
+    background-color: rgb(238, 255, 176);
 }
 footer p{
     text-align: center;
+}
+
+#develop-area{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#community-area{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(255, 193, 193);
+    padding: 40px;
 }
 
