@@ -17,6 +17,7 @@ section{
     margin-top: 5%;
     margin-left: 10%;
     padding-left: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mymiss{
@@ -53,6 +54,7 @@ h1 span{
     display: flex;
     background-position: left;
     border-radius: ;
+    margin: inherit;
 }
 .mission-area h3{
     color: orange;
@@ -69,6 +71,7 @@ h1 span{
     margin-left: 10%;
     border-radius: 10px;
     background-color: rgb(219, 255, 255);
+    padding: auto;
 }
 #baby-web{
     border-left: 7px solid;
@@ -76,6 +79,7 @@ h1 span{
     border-image-slice: 1;
     border-radius: 10px;
     background-color: rgb(253, 255, 158);
+    padding: auto;
 }
 
 #cry-web{
@@ -107,3 +111,18 @@ footer{
     padding: 40px;
 }
 
+#bangladesh-area{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#dag {
+   border-left: 5px solid;
+   border-image: linear-gradient(rgb(20, 230, 20),rgb(255, 5, 5));
+   border-image-slice: 1;
+   
+}
+
+#komol1{
+    color: tomato;
+}
