@@ -12,11 +12,15 @@ section{
 }
 
 .half-width{
-    width:80%;
+    width: 80%;
     float: left;
     margin-top: 5%;
     margin-left: 10%;
     padding-left: 2%;
+}
+
+.mymiss{
+    text-align: center;
 }
 
 h1{
@@ -37,14 +41,12 @@ h1 span{
     font-weight: 700;
 }
 
-.mission-area h1{
-    text-align: center;
-}
+
 
 .mission-area{
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
+    display: flex;
     background-position: left;
+    border-radius: ;
 }
 .mission-area h3{
     color: orange;
@@ -58,11 +60,22 @@ h1 span{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
+    margin-left: 10%;
+    border-radius: 10px;
 }
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    border-radius: 10px;
+}
+
+#cry-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(200, 255, 0), rgb(0, 255, 136));
+    border-image-slice: 1;
+    border-radius: 10px;
+    margin-right: 10%;
 }
 footer p{
     text-align: center;
